@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <h2>Rent a Car</h2>
+    <form action="#" method="POST" id="rental-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+        <div class="form-group">
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" name="occupation" required>
+        </div>
+        <div class="form-group">
+            <label for="car-model">Car Model:</label>
+            <select id="car-model" name="car-model" required>
+                <option value="Ford Ranger Raptor">Ford Ranger Raptor</option>
+                <option value="BMW 1 Series 118i M Sport">BMW 1 Series 118i M Sport</option>
+                <option value="Opel Zafira">Opel Zafira</option>
+                <option value="Ford Focus ST">Ford Focus ST</option>
+                <option value="Land Rover Range Rover">Land Rover Range Rover</option>
+                <option value="Audi S6">Audi S6</option>
+                <option value="Volkswagen Golf">Volkswagen Golf</option>
+                <option value="Mercedes-Benz C-Class">Mercedes-Benz C-Class</option>
+                <option value="Honda Civic">Honda Civic</option>
+                <option value="Audi A4">Audi A4</option>
+                <option value="Tesla Model 3">Tesla Model 3</option>
+                <option value="Ford Mustang">Ford Mustang</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="num-days">Number of Days:</label>
+            <input type="number" id="num-days" name="num-days" required>
+        </div>
+        <div class="form-group">
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById('rental-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Thank you! We will contact you within an hour.');
+            // You can add code here to send the form data to the server if needed
+        });
+    </script>
+</body>
+
+</html>

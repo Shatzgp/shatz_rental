@@ -1,0 +1,51 @@
+{
+    "cars": [
+      {
+        "model": "Ford Ranger Raptor",
+        "year": 2022,
+        "capacity": "5 People",
+        "fuelType": "Petrol",
+        "consumption": "11.5L/100km",
+        "transmission": "Automatic",
+        "price": 12440
+      },
+      {
+        "model": "BMW 1 Series 118i M Sport",
+        "year": 2020,
+        "capacity": "5 People",
+        "fuelType": "Petrol",
+        "consumption": "5.9l/100km",
+        "transmission": "Automatic",
+        "price": 8000
+      },
+      {
+        "model": "Opel Zafira",
+        "year": 2020,
+        "capacity": "9 People",
+        "fuelType": "Diesel",
+        "consumption": "6.3l/100km",
+        "transmission": "Automatic",
+        "price": 6000
+      },
+      {
+        "model": "Ford Focus ST",
+        "year": 2020,
+        "capacity": "5 People",
+        "fuelType": "Petrol",
+        "consumption": "8.2l/100km",
+        "transmission": "Automatic",
+        "price": 5620
+      },
+      {
+        "model": "Land Rover Range Rover",
+        "year": 2015,
+        "capacity": "5 People",
+        "fuelType": "Diesel",
+        "consumption": "8.7l/100km",
+        "transmission": "Automatic",
+        "price": 6530
+      }
+
+    ]
+  }
+  
