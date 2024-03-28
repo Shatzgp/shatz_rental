@@ -5,9 +5,9 @@
   
   <img src="./readme-images/Screenshot (556).png" />
 
-  <h2 align="center">Ridex - Car rent website</h2>
+  <h2 align="center">Ridex - shatz rent website</h2>
 
-  Ridex is fully responsive car rental website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+  shatz is fully responsive car rental website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
   <a href="https://shatzgp.github.io/shatz_rental/"><strong>➥ Live Demo</strong></a>
 
@@ -17,7 +17,7 @@
 
 ### Demo Screeshots
 
-![Ridex Desktop Demo](./readme-images/Screenshot%20(555).png "Desktop Demo")
+![shatz Desktop Demo](./readme-images/Screenshot%20(555).png "Desktop Demo")
 
 ### Prerequisites
 
